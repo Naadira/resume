@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #fff;
   }
   .container {
     max-width: 800px;
@@ -11,7 +11,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+    background-color: whitesmoke;
   }
   h1, h2, h3, h4 {
     margin-bottom: 10px;
@@ -24,23 +24,38 @@ body {
   .section {
     margin-bottom: 10px;
   }
-  .section-header {
+  .header {
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
   ul {
-    list-style-type: none;
-    padding: 0;
-  }
+    list-style-type:disc;
+    padding:0;
+    margin-left: 15px;
+    line-height: 25px;  }
   ul li {
     margin-bottom: 5px;
   }
-  .highlight {
-    font-weight: bold;
-    color: #007bff;
-  }
   .user-image {
     max-width: 150px;
-    border-radius: 70%;
+    height: 175px;
+    margin-top: 20px;
     margin-bottom: 0px;
+    position:absolute;
+    top:70px;
+    margin-left: 620px;
+  }
+  a{
+    text-decoration: underline;
+    color:black;
+    line-height: 27px;
+  }
+  h5{
+    text-align: right;
+  }
+  h1,h2{
+    color:rgb(1, 1, 107);
+  }
+  h4,h5{
+    color:rgba(228, 166, 10, 0.9);
   }
