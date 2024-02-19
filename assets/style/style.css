@@ -39,10 +39,10 @@ body {
   .user-image {
     max-width: 150px;
     height: 175px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0px;
     position:absolute;
-    top:70px;
+    top:50px;
     margin-left: 620px;
   }
   a{
@@ -51,11 +51,11 @@ body {
     line-height: 27px;
   }
   h5{
-    text-align: right;
+    text-align:right;
   }
   h1,h2{
     color:rgb(1, 1, 107);
   }
-  h4,h5{
+  h4{
     color:rgba(228, 166, 10, 0.9);
   }
